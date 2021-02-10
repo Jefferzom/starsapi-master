@@ -1,0 +1,23 @@
+.Body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  /* transform: scale(5); */
+}
+
+.Loader {
+  animation: is-rotating 1s infinite;
+  border: 18px solid tomato;
+  border-radius: 50%;
+  border-top-color: #34ebba;
+  height: 200px;
+  width: 200px;
+  box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+@keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+}
