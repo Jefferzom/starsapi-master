@@ -15,10 +15,10 @@ function Home() {
         <Titulo>Escolha sua lista abaixo ↓</Titulo>
         <ContainerLink>
           <Link to="/films">
-            <LinkFilms>Filmes</LinkFilms>
+            <LinkFilms>Lista de films</LinkFilms>
           </Link>
           <Link to="/peoples">
-            <LinkPeoples>Atores</LinkPeoples>
+            <LinkPeoples>Lista de Atores</LinkPeoples>
           </Link>
         </ContainerLink>
       </Container>

@@ -12,10 +12,17 @@ export const GetSW = ({ children }) => {
 
   React.useEffect(() => {
     setLoading(true);
-    axios.get('https://swapi.dev/api/films/').then((res) => {
-      setMovies(res.data.results);
-      setLoading(false);
-    });
+    axios
+      .get('https://swapi.dev/api/films/')
+      .then((res) => {
+        setMovies(res.data.results);
+        setLoading(false);
+      })
+      .then((res) => {
+        axios.get('https://swapi.dev/api/people/').then((res) => {
+          setPersonas(res.data.results);
+        });
+      });
   }, []);
 
   async function handleBack() {
@@ -26,8 +33,14 @@ export const GetSW = ({ children }) => {
     navigate('/peoples');
   }
 
+  async function handleFilms() {
+    navigate('/films');
+  }
+
   return (
-    <MoviesContext.Provider value={{ movies, loading, handleBack, handleNext }}>
+    <MoviesContext.Provider
+      value={{ movies, loading, handleBack, handleNext, handleFilms, personas }}
+    >
       {children}
     </MoviesContext.Provider>
   );
