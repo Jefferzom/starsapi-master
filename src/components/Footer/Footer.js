@@ -6,7 +6,7 @@ function Footer() {
     <Container>
       <CopyWritter className="animeLeft">
         Alguns direitos reservados | Github:{' '}
-        <a target="_blank" href="https://github.com/Jefferzom">
+        <a target="_blank" href="https://github.com/Jefferzom/starsapi-master">
           Jefferzom
         </a>
       </CopyWritter>
