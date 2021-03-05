@@ -36,7 +36,7 @@ $ git clone <https://github.com/Jefferzom/starsapi-master>
 ## Deploy da Aplicação com Netlify: :dash:
 https://reactswapi.netlify.app/
 
-<a href="https://ibb.co/ZGPQwD2"><img src="https://i.ibb.co/6rxKpCX/pking.png" alt="pking" width="600px;"  border="0"></a>
+<a href="https://imgur.com/Ja3JRz6"><img src="https://i.imgur.com/Ja3JRz6.png" title="source: imgur.com" /></a>
 
 ### Autor
 ---
