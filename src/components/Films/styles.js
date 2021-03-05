@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Space = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   justify-items: center;
   margin-top: 8rem;
@@ -11,6 +11,7 @@ export const Space = styled.div`
 export const Cartazes = styled.div`
   text-align: center;
   padding: 15px;
+  width: 100%;
   max-height: 100%;
   border-radius: 12px;
   border: 2px solid #ddd;

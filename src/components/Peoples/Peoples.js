@@ -7,9 +7,15 @@ function People() {
   console.log(personas);
   return (
     <>
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
-        <BackTo onClick={handleBack}> ← Home</BackTo>
-        <BackTo onClick={handleFilms}>← Films</BackTo>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+        }}
+      >
+        <BackTo onClick={handleBack}>← Home</BackTo>
+        <BackTo onClick={handleFilms}>ᐁ Films</BackTo>
       </div>
       {personas &&
         personas.map((item, i) => (

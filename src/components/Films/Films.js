@@ -26,7 +26,12 @@ function Films() {
             <Cartazes className="animeLeft">
               <Listagem key={item.episode_id}>
                 <img
-                  style={{ after: '', borderBottom: '2px solid #c1f' }}
+                  style={{
+                    after: '',
+                    maxHeight: '100%',
+                    borderBottom: '2px solid #c1f',
+                    width: '100%',
+                  }}
                   src={urls[i].url}
                   alt="Cartazes"
                 />
