@@ -1,5 +1,5 @@
 
-# Aplication React - Swapi 
+# React Wars 
 
 ## Getting Started with Create React App || 
 
