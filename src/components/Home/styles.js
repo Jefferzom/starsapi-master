@@ -28,6 +28,10 @@ export const LinkFilms = styled.button`
   outline: none;
   color: #cdd;
   font-weight: bold;
+  cursor: pointer;
+  &:hover {
+    background-color: #cccc;
+  }
 `;
 
 export const LinkPeoples = styled.button`
@@ -38,4 +42,8 @@ export const LinkPeoples = styled.button`
   background: orange;
   border-radius: 8px;
   outline: none;
+  cursor: pointer;
+  &:hover {
+    background-color: tomato;
+  }
 `;

@@ -6,16 +6,17 @@ import {
   ContainerLink,
   LinkFilms,
   LinkPeoples,
+  CartazFilme,
 } from './styles';
 
 function Home() {
   return (
     <>
       <Container>
-        <Titulo>Escolha sua lista abaixo ↓</Titulo>
+        <Titulo>Botão da lista abaixo ↓</Titulo>
         <ContainerLink>
           <Link to="/films">
-            <LinkFilms>Lista de films</LinkFilms>
+            <LinkFilms>Lista de filmes</LinkFilms>
           </Link>
           <Link to="/peoples">
             <LinkPeoples>Lista de Atores</LinkPeoples>

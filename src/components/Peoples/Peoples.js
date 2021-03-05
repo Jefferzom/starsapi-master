@@ -8,7 +8,7 @@ function People() {
   return (
     <>
       <div style={{ display: 'flex', flexDirection: 'column' }}>
-        <BackTo onClick={handleBack}>← Home</BackTo>
+        <BackTo onClick={handleBack}> ← Home</BackTo>
         <BackTo onClick={handleFilms}>← Films</BackTo>
       </div>
       {personas &&
@@ -23,7 +23,7 @@ function People() {
             }}
           >
             <li>
-              Nome: <span>{item.name}</span>
+              Nome: <span style={{ color: 'tomato' }}>{item.name}</span>
             </li>
             <li>
               Peso: <span>{item.mass}</span>
@@ -51,14 +51,3 @@ function People() {
 }
 
 export default People;
-
-{
-  /* <th style={{ color: 'white' }}>{item.name}</th>
-<th>{item.height}</th>
-<th>{item.mass}</th>
-<th>{item.hair_color}</th>
-<th>{item.skin_color}</th>
-<th>{item.eye_color}</th>
-<th>{item.birth_year}</th>
-<th>{item.gender}</th> */
-}
